@@ -1,39 +1,103 @@
-*
-{
-    margin: 0;
-    padding: 0;
-}
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
 
-.row
-{
-    max-width: 1140px;
-    margin: 0 auto;
-}
+    .row
+    {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 
-body
-{
-    font-family: tahoma;
-}
+    body
+    {
+        font-family: tahoma;
+    }
 
-.hero
-{
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
+    .hero
+    {
+        position: absolute;
+        width: 1140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
 
-header
-{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/bg.jpg);
-    height:100vh;
-    background-position: center;
-    background-size: cover;
-}
+    header
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/bg.jpg);
+        height:100vh;
+        background-position: center;
+        background-size: cover;
+    }
 
-h1 
-{
-    color: white;
-}
+    h1 
+    {
+        color: white;
+    }
+
+    .main-nav
+    {
+        list-style: none;
+        float: right;
+        margin-top: 60px;
+    }
+
+    .main-nav li
+    {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    .main-nav li a
+    {
+        color: white;
+        text-decoration: none;
+        font-size: 90%;
+    }
+
+    .main-nav li a:hover
+    {
+        color: #e67e22;
+        border-bottom: 2px solid #e67e22;
+        transition: all 0.2s ease-in;
+        padding: 20px;
+    }
+
+    .logo img
+    {
+        height: 100px;
+        float: left;
+        margin-top: 15px 0;
+    }
+
+    .btn
+    {
+        border: 1px solid #e67e22;
+        padding: 10px 30px;
+        color: #e67e22;
+        text-decoration: none;
+        border-radius: 12px;
+        margin-right: 20px;;
+
+    }
+
+    .button-awesome
+    {
+        margin-top: 40px;
+    }
+
+    .btn-half
+    {
+        background-color: #e67e22;
+        color: white;
+    }
+
+    .btn-full:hover
+    {
+        background-color: #e67e22;
+        color: white;
+        transition: all 0.5s ease-in;
+    }
 
