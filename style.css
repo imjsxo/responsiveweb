@@ -19,8 +19,8 @@
     {
         position: absolute;
         width: 1140px;
-        top: 50%;
-        left: 50%;
+        top: 60%;
+        left: 52%;
         transform: translate(-50%,-50%);
     }
 
@@ -41,7 +41,7 @@
     {
         list-style: none;
         float: right;
-        margin-top: 60px;
+        margin-top: 40px;
     }
 
     .main-nav li
@@ -60,16 +60,18 @@
     .main-nav li a:hover
     {
         color: #e67e22;
-        border-bottom: 2px solid #e67e22;
+        border-bottom: 1px solid #e67e22;
         transition: all 0.2s ease-in;
         padding: 20px;
     }
 
     .logo img
     {
-        height: 100px;
+        height: 160px;
         float: left;
-        margin-top: 15px 0;
+        margin-top: 20px;
+        margin-left: 0;
+        color: white;
     }
 
     .btn
@@ -101,3 +103,5 @@
         transition: all 0.5s ease-in;
     }
 
+    
+    
